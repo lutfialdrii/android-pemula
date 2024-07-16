@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                style="@style/TextContent.BodyMedium.Bold"
+                android:layout_marginEnd="16dp"
+                android:text="@string/aliases" />
+
+            <TextView
+                android:id="@+id/tv_detail_aliases"
+                style="@style/TextContent.BodyMedium.Gray"
+                android:layout_weight="1"
+                android:text="@string/dummy_alias" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                style="@style/TextContent.BodyMedium.Bold"
+                android:layout_marginEnd="16dp"
+                android:text="@string/age" />
+
+            <TextView
+                android:id="@+id/tv_detail_age"
+                style="@style/TextContent.BodyMedium.Gray"
+                android:layout_weight="1"
+                android:text="@string/dummy_age" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                style="@style/TextContent.BodyMedium.Bold"
+                android:layout_marginEnd="16dp"
+                android:text="@string/category" />
+
+            <TextView
+                android:id="@+id/tv_detail_category"
+                style="@style/TextContent.BodyMedium.Gray"
+                android:layout_weight="1"
+                android:text="@string/dummy_category" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                style="@style/TextContent.BodyMedium.Bold"
+                android:layout_marginEnd="16dp"
+                android:text="@string/history" />
+
+            <TextView
+                android:id="@+id/tv_detail_history"
+                style="@style/TextContent.BodyMedium.Gray"
+                android:layout_marginEnd="16dp"
+                android:layout_weight="1"
+                android:text="@string/dummy_history" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        style="@style/TextContent.TitleMedium.Bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:gravity="center"
+        android:text="@string/description" />
+
+    <TextView
+        android:id="@+id/tv_detail_desc"
+        style="@style/TextContent.BodyMedium.Gray.MarginLeftRight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dummy_desc"
+        android:textAlignment="center" />
+
+</LinearLayout>

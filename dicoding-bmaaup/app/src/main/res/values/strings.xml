@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">RestoKan</string>
+    <string name="restaurants_name">Nama Restoran</string>
+    <string name="rating">Rating</string>
+    <string name="address">Alamat Restaurant</string>
+    <string name="detail">Detail Restaurant</string>
+    <string name="description">Deskripsi Restaurant</string>
+    <string name="profile">Profile</string>
+    <string name="my_name">Muhammad Rizki Syafapri</string>
+    <string name="my_email">rizkisyafapri@gmail.com</string>
+    <string name="title_about_detail">Contact Person \n \nInstagram \nLinkedIn \n \nGitHub \nDicoding </string>
+    <string name="about_detail">\n \n@mrsyafapri \nhttps://www.linkedin.com/in/muhammad-rizki-syafapri-8999b5185 \nhttps://github.com/mrsyafapri \nhttps://www.dicoding.com/users/mrsyafapri </string>
+</resources>

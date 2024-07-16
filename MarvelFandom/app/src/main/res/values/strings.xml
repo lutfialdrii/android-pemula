@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Marvel Fandom</string>
+    <string name="dummy_name">Lutfi Man</string>
+    <string name="dummy_alias">Lutbro</string>
+    <string name="dummy_category">Penjelajah Bumi</string>
+    <string name="dummy_desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+    <string name="profile">About</string>
+    <string name="aliases">Aliases</string>
+    <string name="category">Category</string>
+    <string name="description">Description</string>
+    <string name="share">Share</string>
+    <string name="author">Lutfi Aldri Permana</string>
+    <string name="marvel_fandom_version_1_0">Marvel Fandom Version 1.0</string>
+    <string name="cp">© 2024 Marvel Fandom. All rights reserved.</string>
+    <string name="lutfialdripermana_gmail_com">lutfialdripermana@gmail.com</string>
+    <string name="history">History</string>
+    <string name="dummy_history">Dummy History</string>
+    <string name="age">Age</string>
+    <string name="dummy_age">77</string>
+</resources>

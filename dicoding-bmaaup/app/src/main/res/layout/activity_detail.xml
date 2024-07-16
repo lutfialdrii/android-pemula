@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".DetailActivity">
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="16dp"
+                    android:background="#FFCCCB">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/img_item_photo"
+                        android:layout_width="180dp"
+                        android:layout_height="180dp"
+                        android:layout_marginEnd="16dp"
+                        tools:src="@android:color/darker_gray"/>
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toEndOf="@id/img_item_photo"
+                        android:orientation="vertical">
+
+                    <TextView
+                            android:id="@+id/tv_item_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:textSize="24sp"
+                            android:textStyle="bold"
+                            tools:text="@string/restaurants_name"
+                            android:textColor="#000000"/>
+
+                    <TextView
+                            android:id="@+id/tv_item_rating"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            tools:text="@string/rating"
+                            android:textSize="16sp"
+                            android:textColor="#455A64"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:gravity="center"
+                    android:text="@string/address"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+
+            <TextView
+                    android:id="@+id/tv_item_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:gravity="center"
+                    android:lineSpacingMultiplier="1"
+                    android:text="@string/description"
+                    android:textColor="#000000"
+                    android:textSize="16sp"/>
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:gravity="center"
+                    android:text="@string/detail"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+
+            <TextView
+                    android:id="@+id/tv_item_desc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:gravity="center"
+                    android:lineSpacingMultiplier="1"
+                    android:text="@string/description"
+                    android:textColor="#000000"
+                    android:textSize="16sp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
